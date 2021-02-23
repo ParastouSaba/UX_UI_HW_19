@@ -1,0 +1,158 @@
+*{
+margin: 0;
+padding:0;
+}
+
+.nav{
+    widows: 100%;
+    height: 80px;
+    background-color:lightgrey;
+    
+}
+
+
+
+.logo{
+    padding-left: 20px;
+}
+
+
+
+.ul li {
+float:right;
+list-style: none; 
+line-height: 100px;
+padding-top: 0px;
+padding-left: 5px;
+}
+
+ul li a {
+display: flex;
+text-decoration:none ;
+text-align: center;
+font-size: 18px;
+font-family: Arial, Helvetica, sans-serif;
+color: #1e1e1e;
+padding-left:100px;
+padding-top: 0px;
+margin:0px;
+
+
+}
+
+.firstsection{
+    background-color: lightgrey;
+    width: 100%;
+    height:60%;
+
+
+}
+
+
+
+
+.heading{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10%;
+    margin-top: 5%;
+    padding-left: 10px;
+    padding-bottom: 0px;
+}
+
+.card{
+font-family:Arial, Helvetica, sans-serif ;
+  font-size: 18px;
+  padding: 40px 0;
+  display: flex;
+  flex: right;
+  margin:0%;
+}
+
+.right{
+
+    float: right;
+ padding: 0 20px 20px 0;
+}
+
+.firstparagraph{
+font-size: 18px ;
+font-family: Arial, Helvetica, sans-serif;
+margin: 40px;
+padding-top: 0px;
+padding-right: 60px;
+padding-left:10px;
+
+}
+
+.button{
+    background-color:#3E04CC;
+  border: none;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.cardcontainer{
+    float: right;
+    margin:0%;
+
+}
+
+
+.aboutme{
+    padding-left: 40px;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.myUXSkills {
+    text-align: center;
+    display: flex;
+    padding: 200px;
+    margin: 20px;
+
+}
+
+.greybox {
+    text-align:center;
+    display: grid; 
+    grid-row-gap:50px ;
+    grid-template-rows: auto auto auto;
+    background:lightgrey;
+    flex-direction:row;
+    margin: 50px;
+}
+
+.workGrid{ 
+   display :inline-grid;
+   padding: 10px;
+}
+.grid-container {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    background-color:white;
+    padding: 10px;}
+
+
+.grid-item{
+  display: inline-grid;
+  grid-row-gap: 50px;
+  background-color:#FFAB66;
+  padding: 20px;
+}
+
+.footer{
+    display: inline;
+    list-style: none;
+    background-color: lightgray;
+
+}
